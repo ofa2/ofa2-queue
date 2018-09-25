@@ -14,7 +14,8 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.0.0",
-    "amqp-queue": "^1.2.4"
+    "amqp-queue": "^1.2.4",
+    "bluebird": "^3.5.2"
   },
   "devDependencies": {
     "@babel/cli": "^7.0.0",
