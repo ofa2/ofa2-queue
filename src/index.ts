@@ -8,4 +8,6 @@ export default function lift() {
     let job = queue.create(name, data);
     return bb.promisify(job.save, { context: job })();
   };
+
+  this.queue = queue;
 }
